@@ -23,15 +23,14 @@ public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
-     * ID
-     */
-    @TableId(value = "id", type = IdType.INPUT)
-    private String id;
-
-    /**
      * 手机号
      */
     private String phone;
+
+    /**
+     * 密码
+     */
+    private String password;
 
 
 }

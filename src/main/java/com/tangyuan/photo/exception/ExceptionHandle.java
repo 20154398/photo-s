@@ -11,6 +11,6 @@ public class ExceptionHandle {
     @ExceptionHandler(BusinessException.class)
     @ResponseBody
     public Result businessExceptionHandle(BusinessException ex) {
-        return Result.fail("Deal BusinessException:" + ex);
+        return Result.fail(ex.getMessage());
     }
 }

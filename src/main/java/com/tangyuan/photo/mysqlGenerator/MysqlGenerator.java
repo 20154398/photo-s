@@ -14,7 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MysqlGenerator {
-    private static final String[] creatTableList = {"user", "user_folder"};
+    private static final String[] creatTableList = {
+            "user", "user_album", "album", "original_photo", "refinement_photo"
+    };
 
     /**
      * RUN THIS
